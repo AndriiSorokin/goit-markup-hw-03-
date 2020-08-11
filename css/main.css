@@ -1,0 +1,300 @@
+/* head color #757575;
+second color  #212121;
+hover #2196F3;
+background section #F5F4FA;
+footer color #2F303A;
+ */
+
+:root {
+    --primary-text-color: #757575;
+    --second-text-color: #212121;
+    --hover-text-color: #2196F3;
+    --background-section-color: #F5F4FA;
+}
+
+body {
+    background-color: #fff;
+    color: var(--primary-text-color);
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    font-size: 36px;
+    padding-top: 94px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+}
+
+.section {
+    margin: 94px 0;
+}
+
+header {
+    background-color: #fff;
+    padding: 25px 0;
+}
+
+.list a {
+    color: var(--primary-text-color);
+}
+
+.list a:hover,
+.list a:focus {
+    color: var(--hover-text-color);
+    transition: all 0.5s ease;
+}
+
+/* Site nav  */
+
+.logo {
+    margin-right: 93px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: #000;
+}
+
+.logo span {
+    color: var(--hover-text-color);
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.site-nav {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.site-nav li {
+    display: flex;
+    margin-right: 50px;
+    display: block;
+}
+
+.site-nav li:last-child {
+    margin-right: 0;
+}
+
+.auth-nav {
+    display: flex;
+    margin-left: auto;
+}
+
+.auth-nav :first-child {
+    margin-right: 50px;
+}
+
+.site-nav .link {
+    color: var(--second-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--hover-text-color);
+    transition: all 0.5s ease;
+}
+
+.section-title {
+    color: var(--second-text-color);
+}
+
+/* HEROOOOOOOOO */
+
+.hero {
+    background-color: #2F303A;
+    text-align: center;
+}
+
+.hero-title {
+    padding-top: 200px;
+    margin: 0 auto;
+    width: 696px;
+    color: #fff;
+    -webkit-text-stroke: 1px black;
+    font-family: Roboto;
+    font-style: bold;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.367;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border: 1px color: #000;
+}
+
+.btn-hero {
+    display: inline-block;
+    color: #fff;
+    font-weight: 900;
+    -webkit-text-stroke: 1px black;
+    background-color: var(--hover-text-color);
+    font-size: 18px;
+    line-height: 1.367;
+    padding: 10px 32px;
+    border-radius: 3px;
+    border: 1px solid #000;
+    margin: 30px 0 200px 0;
+    min-width: 200px;
+    text-align: center;
+}
+
+.btn-hero:hover,
+.btn-hero:focus {
+    color: var(--second-text-color);
+    background-color: var(--background-section-color);
+    transition: all 0.5s ease;
+}
+
+/* IDEOLOGY SECTION */
+
+.ideology-item {
+    display: flex;
+}
+
+.ideology-list {
+    width: 270px;
+    margin-right: 30px;
+}
+
+.ideology-list :last-child {
+    margin-right: 0px;
+}
+
+.ideology-text {
+    font-weight: normal;
+    line-height: 1.715em;
+    letter-spacing: 0.04em;
+}
+
+/* AFFAIR SECTION */
+
+.affair-list {
+    display: flex;
+}
+
+.affair-lists {
+    margin-right: 30px;
+    text-align: center;
+}
+
+.section-team {
+    background-color: var(--background-section-color);
+}
+
+.app {
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 0.03em;
+}
+
+/* TEAM SECTION */
+
+.team {
+    display: flex;
+}
+
+.team-list {
+    margin-right: 30px;
+    text-align: center;
+}
+
+.team-list :last-child {
+    margin-right: 0;
+}
+
+.team-text {
+    color: var(--primary-text-color);
+}
+
+/* CLIENT SECTION */
+
+.client-list {
+    display: flex;
+}
+
+.client-list li {
+    margin-right: 30px;
+}
+
+.client-list li :last-child {
+    margin-right: 0;
+}
+
+address a {
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+address p {
+    color: #fff;
+    font-style: normal;
+}
+
+.footer-text {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+footer {
+    background-color: #2F303A;
+}
+
+/* Css portflio */
+
+.btn {
+    color: var(--second-text-color);
+    background-color: #F5F4FA;
+}
+
+.btn:hover,
+.btn:focus {
+    color: #fff;
+    background-color: var(--hover-text-color);
+    transition: all 0.5s ease;
+}
+
+.work-list h2 {
+    color: var(--second-text-color);
+    font-size: 18px;
+}
+
+.modal-text {
+    color: #fff;
+}
