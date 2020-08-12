@@ -332,6 +332,7 @@ footer {
     font-size: 16px;
     padding: 6px 12px;
     border-radius: 6px;
+    border: none;
 }
 
 .btn:hover,
