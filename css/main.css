@@ -167,14 +167,12 @@ nav {
     margin: 0 auto;
     width: 696px;
     color: #fff;
-    -webkit-text-stroke: 1px black;
     font-family: Roboto;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.367;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    border: 1px solid #000;
 }
 
 .btn-hero {
