@@ -21,6 +21,16 @@ body {
     padding: 0;
 }
 
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -309,6 +319,11 @@ footer {
     margin-right: 8px;
 }
 
+.work-link {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
 .btn {
     color: var(--second-text-color);
     background-color: #F5F4FA;
@@ -340,16 +355,26 @@ footer {
     flex-wrap: wrap;
 }
 
+.portfolio-text {
+    padding-left: 24px;
+    margin-bottom: 20px;
+}
+
 .work-list-item {
     width: 370px;
+    border: 1px solid #EEEEEE;
 }
 
 .work-list-item:not(:nth-child(3n)) {
     margin-right: 30px;
 }
 
-.work-list-item:not(:nth-child(n+6)) {
+.work-list-item:not(:nth-child(n+7)) {
     margin-bottom: 30px;
+}
+
+.work-list-item:nth-child(n+7) {
+    margin-bottom: 94px;
 }
 
 .modal-text {
