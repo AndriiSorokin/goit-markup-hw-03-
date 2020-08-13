@@ -10,10 +10,11 @@ footer color #2F303A;
     --second-text-color: #212121;
     --hover-text-color: #2196F3;
     --background-section-color: #F5F4FA;
+    --white-color: #fff;
 }
 
 body {
-    background-color: #fff;
+    background-color: var(--white-color);
     color: var(--primary-text-color);
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
@@ -76,7 +77,7 @@ a {
 }
 
 header {
-    background-color: #fff;
+    background-color: var(--white-color);
     padding: 25px 0;
     border-bottom: 1px solid #ECECEC;
 }
@@ -109,7 +110,7 @@ header .logo {
     font-weight: bold;
     font-size: 26px;
     letter-spacing: 0.03em;
-    color: #fff;
+    color: var(--white-color);
 }
 
 .logo span {
@@ -174,7 +175,7 @@ nav {
     padding-top: 200px;
     margin: 0 auto;
     width: 696px;
-    color: #fff;
+    color: var(--white-color);
     font-family: Roboto;
     font-weight: 900;
     font-size: 44px;
@@ -185,7 +186,7 @@ nav {
 
 .btn-hero {
     display: inline-block;
-    color: #fff;
+    color: var(--white-color);
     font-weight: 900;
     -webkit-text-stroke: 1px black;
     background-color: var(--hover-text-color);
@@ -250,7 +251,7 @@ nav {
 
 .app {
     font-size: 16px;
-    color: #fff;
+    color: var(--white-color);
     letter-spacing: 0.03em;
 }
 
@@ -263,6 +264,8 @@ nav {
 .team-list {
     margin-right: 30px;
     text-align: center;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px
 }
 
 .team-list:last-child {
@@ -299,13 +302,13 @@ address a {
 }
 
 address p {
-    color: #fff;
+    color: var(--white-color);
     font-style: normal;
 }
 
 .footer-text {
     text-transform: uppercase;
-    color: #fff;
+    color: var(--white-color);
 }
 
 footer {
@@ -349,7 +352,7 @@ footer {
 
 .btn:hover,
 .btn:focus {
-    color: #fff;
+    color: var(--white-color);
     background-color: var(--hover-text-color);
     transition: all 0.5s ease;
 }
@@ -360,7 +363,7 @@ footer {
 }
 
 .modal-text {
-    color: #fff;
+    color: var(--white-color);
 }
 
 .work-list {
