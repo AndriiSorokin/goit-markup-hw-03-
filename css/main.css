@@ -188,13 +188,11 @@ nav {
     display: inline-block;
     color: var(--white-color);
     font-weight: 900;
-    -webkit-text-stroke: 1px black;
     background-color: var(--hover-text-color);
     font-size: 18px;
     line-height: 1.367;
     padding: 10px 32px;
     border-radius: 3px;
-    border: 1px solid #000;
     margin: 30px 0 200px 0;
     min-width: 200px;
     text-align: center;
