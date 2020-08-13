@@ -40,7 +40,8 @@ h1,
 h2,
 h3,
 h4,
-ul {
+ul,
+p {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -272,6 +273,7 @@ nav {
 }
 
 .team-list {
+    width: 270px;
     margin-right: 30px;
     text-align: center;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -314,6 +316,7 @@ address a {
 address p {
     color: var(--white-color);
     font-style: normal;
+    margin-bottom: 10px;
 }
 
 .footer-text {
@@ -327,17 +330,16 @@ footer {
     padding-bottom: 60px;
 }
 
+.footer-adress {
+    margin-top: 20px;
+}
+
 /* Css portflio */
 
 .filter {
-    /* display: flex; */
-    text-align: center;
-    padding-top: 94px;
+    display: flex;
     margin-bottom: 34px;
-}
-
-.filter li {
-    display: inline;
+    justify-content: center;
 }
 
 .filter-list:not(:last-child) {
@@ -346,7 +348,6 @@ footer {
 
 .work-link {
     display: inline-block;
-    margin-bottom: 20px;
 }
 
 .btn {
@@ -383,7 +384,14 @@ footer {
 
 .portfolio-text {
     padding-left: 24px;
-    margin-bottom: 20px;
+    padding-right: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: var(--primary-text-color);
+}
+
+.portfolio-text h2 {
+    margin-bottom: 4px;
 }
 
 .work-list-item {
@@ -399,9 +407,9 @@ footer {
     margin-bottom: 30px;
 }
 
-.work-list-item:nth-child(n+7) {
+/* .work-list-item:nth-child(n+7) {
     margin-bottom: 94px;
-}
+} */
 
 .modal-text {
     display: none;
