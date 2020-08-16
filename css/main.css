@@ -179,7 +179,7 @@ nav {
 .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-img.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     text-align: center;
 }
 
@@ -288,6 +288,19 @@ nav {
 
 .team-text {
     color: var(--primary-text-color);
+    margin-bottom: 30px;
+}
+
+.social-list {
+    display: flex;
+    width: 170px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.social-list-icon {
+    width: 20px;
+    height: 20px;
 }
 
 /* CLIENT SECTION */
